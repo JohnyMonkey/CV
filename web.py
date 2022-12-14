@@ -31,4 +31,3 @@ def route_download():
     
     # Download the PDF
     return Response(pdf, mimetype="application/pdf")
-    
