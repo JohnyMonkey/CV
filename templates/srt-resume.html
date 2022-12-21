@@ -9,8 +9,8 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', _external=True, filename='styles/resume.css') }}" media="all" />
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', _external=True, _scheme='https', filename='styles/reset-fonts-grids.css') }}" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', _external=True, _scheme='https', filename='styles/resume.css') }}" media="all" />
 	
 
 </head> <style>
@@ -27,7 +27,7 @@
 			<div class="yui-gc">
 				<div class="yui-u first">
 					<h1>John van Dijk</h1> 
-					<img src="{{url_for('static', _external=True, filename='CVFoto.jpg')}}" width="100" height="100">
+					<img src="{{url_for('static', _external=True, _scheme='https', filename='CVFoto.JPG')}}" width="100" height="100">
 					
 						
 						
